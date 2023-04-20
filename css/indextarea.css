@@ -31,7 +31,7 @@ button:hover{
 .color-acento{ color:rgb(54, 20, 85); }
 
 header .logo{
-     ;
+     
     margin: 0;
     padding: 35px 30px;
     font-weight: bold;
@@ -40,7 +40,7 @@ header .logo{
     word-spacing: 10px;
     border: black;
     font-size: 2.055em;
-    text-decoration-color: rgb(101, 117, 122);
+    text-decoration-color: rgb(241, 242, 243);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500px;
     text-align: center;
@@ -131,34 +131,36 @@ a:hover{
     padding: 10px 12px;
 }
 .icon{
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     display: inline-block;
     background-size: cover;
+    background-image: url(/imagenes/icono.png);
+    
 }
 .email{
-    background-image: url(gmail.png);
+    background-image: url(/imagenes/gmail.png);
 }
 .linkedin{
-    background-image: url(linkedin.png);
+    background-image: url(/imagenes/linkedin.png);
 }
 .icono{
-    background-image: url(icono.png) ;
+    background-image: url(/imagenes/icono.png) ;
     width: 30px;
     height: 30px;
 }
 .trabajo{
-    background-image: url(trabajo.png);
+    background-image: url(/imagenes/trabajo.png);
     width: 30px;
     height: 30px;
 }
 .program{
-    background-image: url(program.png);
+    background-image: url(/imagenes/program.png);
     width: 30px;
     height: 30px; 
 }
 .idioma{
-    background-image: url(idioma.png);
+    background-image: url(/imagenes/idioma.png);
     width: 30px;
     height: 30px;
 }
